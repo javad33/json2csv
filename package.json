@@ -1,0 +1,22 @@
+{
+  "name": "csv-to-json-converter",
+  "version": "1.0.0",
+  "description": "A TypeScript application to convert CSV files to JSON format",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["csv", "json", "converter", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
